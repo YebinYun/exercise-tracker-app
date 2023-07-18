@@ -1,12 +1,9 @@
 // 로그인 창
 
-import React from "react";
+import React from 'react';
 
 const Login = () => {
-    return (
-        <>
-        </>
-    )
+  return <></>;
 };
 
 export default Login;

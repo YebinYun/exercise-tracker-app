@@ -1,12 +1,9 @@
 // 운동 기록 창
 
-import React from "react";
+import React from 'react';
 
 const ExerciseList = () => {
-    return (
-        <>
-        </>
-    )
+  return <></>;
 };
 
 export default ExerciseList;

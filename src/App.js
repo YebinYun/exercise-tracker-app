@@ -1,15 +1,16 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/footer';
-import Start from './components/Start';
-
+// import {Routes, Route} from 'react-router-dom';
+// import Header from './components/Header';
+// import Footer fro./components/Footerter';
+// import Start from './components/Start';
+import MapSearch from './pages/MapSearch';
+import Exercise from './components/Exercise';
 
 function App() {
   return (
     <>
-      <Header />
-      <Routes>
+      {/* <Header /> */}
+      {/* <Routes>
         <Route path='/' element={<Start />}></Route>
         <Route path='/Login' element={<Login />}></Route>
         <Route path='/Main' element={<Main />}></Route>
@@ -18,8 +19,10 @@ function App() {
         <Route path='/ExerciseList' element={<ExerciseList />}></Route>
         <Route path='/Calendar' element={<Calendar />}></Route>
         <Route path='/Setting' element={<Setting />}></Route>
-      </Routes>
-      <Footer />
+      </Routes> */}
+      <MapSearch />
+      <Exercise />
+      {/* <Footer /> */}
     </>
   );
 }
