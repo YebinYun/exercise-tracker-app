@@ -1,12 +1,13 @@
-// 주변 헬스장 정보 받아오기 창
+import React, {useEffect, useState} from 'react';
+import LandingPage from '../components/LandingPage';
 
-import React from "react";
-
-const MapSearch = () => {
-    return (
-        <>
-        </>
-    )
-};
+// 검색기능
+function MapSearch() {
+  return (
+    <>
+      <LandingPage />
+    </>
+  );
+}
 
 export default MapSearch;
